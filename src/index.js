@@ -1,7 +1,7 @@
 import ApiService from './js/apiService';
 import galleryItemMarkup from './templates/gallery-list-item.hbs';
 // import { onClickImage } from './js/modal-img';
-import createModal from './js/modal';
+import createModal from './js/modal'
 import '../src/main.css';
 
 
@@ -66,7 +66,7 @@ function handleOpenModal(event) {
     if (event.target.nodeName !== 'IMG') {
         return;
     }
-    const largeImageURL = event.target.dataset.source;
+    const largeImageURL = event.target.dataset.sourse;
     createModal(largeImageURL);
 
 }
