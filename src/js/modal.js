@@ -1,10 +1,9 @@
-
 import * as basicLightbox from 'basiclightbox';
-
+			
 
 
 function createModal(imagePath) {
-    basicLightbox.create(`
+	basicLightbox.create(`
     <div class="modal">
         <img src="${imagePath}">
     </div>
